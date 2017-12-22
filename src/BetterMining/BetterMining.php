@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: khoan
- * Date: 4/26/2016
- * Time: 8:51 AM
- */
 
 namespace BetterMining;
 
@@ -22,7 +16,7 @@ class BetterMining extends PluginBase{
     
     public function onEnable()
     {
-        $this->getLogger()->info(Color::GOLD . "BetterMining enabled! Made by KhoaHoang!");
+        $this->getLogger()->info(Color::GOLD . "BetterMining enabled! Made by ShadowLessMCPE!");
         $this->getLogger()->info(Color::GREEN . "This plugin is very useful for mining servers! :D");
     }
     
