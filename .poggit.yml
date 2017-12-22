@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/ShadowlessMCPE/BetterMining-source-1
+branches:
+- master
+projects:
+  BetterMining-source-1:
+    path: ""
+...
