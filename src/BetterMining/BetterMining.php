@@ -27,13 +27,13 @@ class BetterMining extends PluginBase{
             $player->addEffect(Effect::getEffect(3));
             $player->addEffect(Effect::getEffect(16));
             $player->addEffect(Effect::getEffect(23));
-            $player->getEffect(3)->setAmplifier(5);
-            $player->getEffect(16)->setAmplifier(5);
-            $player->getEffect(23)->setAmplifier(10);
-            $player->getEffect(3)->setDuration(20000);
-            $player->getEffect(16)->setDuration(20000);
-            $player->getEffect(23)->setDuration(20000);
-            $player->sendMessage(Color::DARK_PURPLE . "Hey " . $name . ", you received some effects for mining easier! :D");
+            $player->getEffect(3)->setAmplifier(1);
+            $player->getEffect(16)->setAmplifier(1);
+            $player->getEffect(23)->setAmplifier(1);
+            $player->getEffect(3)->setDuration(30);
+            $player->getEffect(16)->setDuration(30);
+            $player->getEffect(23)->setDuration(30);
+            $player->sendMessage(Color::DARK_PURPLE . "§bHey " . $name . ", you received some effects for mining easier!");
         }
     }
 }
